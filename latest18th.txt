@@ -12,7 +12,9 @@ namespace PoCStability
 {
     [TestClass]
     public class Stability
-    {
+    {	
+	
+	//This is second change
         private string host = "localhost";
         private int port = Convert.ToInt16(GlobalHelper.InputFromXML("port"));
         private string output = @"..\Automation_Results.html";
@@ -31,7 +33,7 @@ namespace PoCStability
         String Target2_Number = GlobalHelper.InputFromXML("Target2_Number");
         String Target3_Number = GlobalHelper.InputFromXML("Target3_Number");
         string password_ds = GlobalHelper.InputFromXML("password_ds");
-        // this is the first change
+
 
         String Target1_Name = GlobalHelper.InputFromXML("Target1_Name");
         String Target2_Name = GlobalHelper.InputFromXML("Target2_Name");
@@ -2440,6 +2442,12 @@ namespace PoCStability
                 }
                 else
                 {
+									 
+																	 
+									 
+																	 
+									 
+											 
                 Helper.Instance().ClickOkIfOkExits(client);
                 Console.WriteLine("Active screen is not home screen");
             }
